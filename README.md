@@ -1,27 +1,35 @@
 # 🛡️ Threat Detection System
 
-This project is a full-stack application for threat detection, leveraging AI/ML models in Python, a React.js frontend for user interaction, and a Node.js backend to manage API requests and communication.
+This project is a full-stack application for threat detection, leveraging AI/ML models in Python. It has a React.js front end for user interaction and a Node.js backend to manage API requests and communication.
 
-# 🚀 Getting Started
+# 🚀 Getting Started 
 
-###  1. 🌐 Frontend (React)
-Navigate to the client folder and start the React app:
+## 🌐Frontend (React)
+***
+Navigate to the client directory
+```
+$ cd client 
+$ npm run dev
+``` 
 
-cd client
-npm install    # Run this only once to install dependencies
-npm run dev
-This will run the frontend on http://localhost:5173 
 
-###  2. 🌐 Backend (Node.js)
-Navigate to the server folder and run the Node.js server using nodemon:
+## 🌐Backend (Node.js)
+***
+Navigate to the server directory
+```
+$ cd server 
+$ nodemon server.js
+``` 
 
-cd server
-npm install    # Run this only once to install dependencies
-nodemon server.js
-###  3. 🔍 AI Models (Python - Threat Detection)
 
-**Navigate to the AI models directory and run the Python backend:**
+## 🌐AI Models (Python - Flask)
+***
+Navigate to the ai_models directory
+```
+$ cd ai_models 
+$ python app.py
+```
 
-cd ai_models
-python app.py
 
+
+This will start your AI models for threat detection, probably running a server or an API for handling model predictions.
